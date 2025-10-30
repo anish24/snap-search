@@ -4,8 +4,10 @@ import { useState } from "react";
 import RegionInput from "./RegionInput";
 import DateSelector from "./DateSelector";
 import RoomSelector from "./RoomSelector";
+import { useTranslation } from 'next-i18next';
 
 export default function SearchForm() {
+  const { t } = useTranslation('common');
   const [region, setRegion] = useState("");
   const [lat, setLat] = useState<number | undefined>();
   const [lng, setLng] = useState<number | undefined>();
@@ -71,7 +73,7 @@ export default function SearchForm() {
           type="submit"
           className="bg-amber-500 text-white px-6 py-2 h-[41px] rounded-md border border-gray-300 hover:bg-amber-600 transition-colors"
         >
-          Search
+          {t('Search')}
         </button>
       </div>
     </form>
