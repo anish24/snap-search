@@ -32,4 +32,4 @@ This repository contains a React-based search form component built as part of th
 
 ## Getting Started
 
-1. Visit [SnapSearch] (https://snap-search-cj1m.vercel.app/) to view the form, repo was deployed via Vercel.
+1. Visit [SnapSearch](https://snap-search-cj1m.vercel.app/) to view the form, repo was deployed via Vercel.
